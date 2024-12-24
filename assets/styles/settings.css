@@ -1,0 +1,11 @@
+body {
+  background: rgb(248, 175, 246);
+}
+body p::-moz-selection {
+  background: rgb(255, 229, 255);
+  color: rgb(71, 0, 69);
+}
+body p::selection {
+  background: rgb(255, 229, 255);
+  color: rgb(71, 0, 69);
+}/*# sourceMappingURL=settings.css.map */

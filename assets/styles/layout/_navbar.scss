@@ -1,0 +1,15 @@
+nav {
+    background: $color1;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      li {
+        list-style: none;
+        &::selection {
+          background: $colortext;
+          color: $color1;
+        }
+      }
+    }
+  }

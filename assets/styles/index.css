@@ -10,31 +10,6 @@ body p::selection {
   color: rgb(71, 0, 69);
 }
 
-nav {
-  background: rgb(255, 229, 255);
-}
-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-nav ul li {
-  list-style: none;
-}
-nav ul li::-moz-selection {
-  background: rgb(71, 0, 69);
-  color: rgb(255, 229, 255);
-}
-nav ul li::selection {
-  background: rgb(71, 0, 69);
-  color: rgb(255, 229, 255);
-}
-
 header h1 {
   font-size: 3rem;
   text-align: center;
@@ -63,6 +38,31 @@ header h1::after {
 header h1:hover::after {
   -webkit-transform: scale(2);
           transform: scale(2);
+}
+
+nav {
+  background: rgb(255, 229, 255);
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li::-moz-selection {
+  background: rgb(71, 0, 69);
+  color: rgb(255, 229, 255);
+}
+nav ul li::selection {
+  background: rgb(71, 0, 69);
+  color: rgb(255, 229, 255);
 }
 
 section {
